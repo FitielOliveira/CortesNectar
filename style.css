@@ -1,0 +1,103 @@
+body {
+    background-color: rgb(243, 239, 4);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+}
+
+.profile_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 10%;
+    height: auto;
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.profile_name{
+    text-align: center;
+    padding: 30px;
+    font-size: 2rem;
+    color: black;
+
+}
+
+
+p{
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+    color: black;
+
+}
+
+.links{
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 30px;
+    border-width:  2px;
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    font-size: 1rem;
+
+}
+
+.produtos a {
+    text-decoration: none;
+    color: black;
+    transition: color 1s;
+
+
+}
+
+.produtos a:hover{
+    color: black;
+    background-color: white;
+
+}
+
+/* footer*/
+
+footer{
+    padding: 60px;
+}
+
+footer h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+    
+
+}
+
+.footer_sociais{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    color: rgb(243, 239, 4);
+}
+
+.footer_sociais li i{
+    padding: 40px;
+    font-size: 2.5rem;
+    color: black;
+}
+
+.footer_sociais a{
+    color: rgb(243, 239, 4);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
